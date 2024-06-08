@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="forms, basic">
+    <meta name="description" content="basic html forms page ">
+    <title>form</title>
+</head>
+
+<body>
+    <form>
+        <label for="userName">Username</label>
+        <input type="text" id="userName" name="userName" placeholder="Enter username"><br></br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+        <br></br>
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password"> <br></br>
+
+        <label for="age">Age</label>
+        <input type="number" id="age" name="age" placeholder="Enter your age" min="18"> <br></br>
+
+        <label for="date">DOB</label>
+        <input type="date" id="date" name="date" placeholder="Enter your birthday"> <br></br>
+
+        <label for="volume">volume</label>
+        <input type="range" id="volume" name="volume" min="10" max="100">
+        <br>
+
+        <label for="male">Gender</label>
+        <input type="checkbox" id="male" name="gender" value="male"> Male
+        <input type="checkbox" id="female" name="gender" value="female"> Female
+
+        <br>
+        1
+        <!-- Selects only one option .. can select by clicking on the word also -->
+        <input type="radio" id="audi" name="vehicle">
+        <label for="audi">Audi</label>
+
+        <input type="radio" id="bmw" name="vehicle">
+        <label for="bmw">BMW</label>
+
+        <input type="radio" id="ford" name="vehicle">
+        <label for="ford">Ford</label>
+        <br>
+
+        2
+        <!-- can select multiple options .. and cant deselect  -->
+        <input type="radio" id="Audi" name="audi">
+        <label for="Audi">Audi</label>
+
+        <input type="radio" id="Bmw" name="bmw">
+        <label for="Bmw">BMW</label>
+
+        &nbsp;
+        <!-- gives space as many as we add -->
+        <label for="Ford">Ford</label>
+        <input type="radio" id="Ford" name="ford">
+       
+        <br>
+        3
+
+        <!-- can select only by clicking on the radio button ..selects only one -->
+
+        <input type="radio" id="tesla" name="model" value="Tesla"> Tesla
+        <input type="radio" id="audi" name="model" value="Audi"> Audi
+        <input type="radio" id="bmw" name="model" value="BMW"> BMW
+
+        <br>
+        
+        <textarea id="message" name="message" rows="5" cols="20"></textarea>
+        <label for="message">give a suggestion below</label>
+        <br>
+
+        
+
+    </form>
+
+</body>
+
+</html>
